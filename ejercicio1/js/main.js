@@ -1,5 +1,4 @@
-const ejercicio1 = document.querySelector('#id="ejercicio1')
-console.log('id="ejercicio1')
+
 
 
 // Ejercicio 1  //
@@ -11,44 +10,48 @@ console.log('id="ejercicio1')
 
 // EMPIEZA
 
-//    Pedir palabra
-//    Comprobar que sea una "palabras"
-//       Si no es una "palabra" comprobar hasta que lo sea
-//       si lo es aceptar parámetro "palabra"
-//       (Bucle) indefinido hasta que sea una palabra
+//    1- Pedir palabra
 
-//    Aceptado párametro "palabra"
-//    guardar valor "palabra"
+function Ejercicio1 (palabra) {
 
-//    Contar ese valor "palabra" = n "letras" y llevarlo a un contedor (un array)
-//    de n posiciones.
+    // hago el array para el palabro//
 
-//    Añadir desde la posición 0 (la primera letra) un espacio a cada posición original.
-//    Coger la posiciones orginales y sumar 1, 1 espacio y devolver el array nuevo
+    let ArraypartirPal = palabra.split("")
 
-//    Guardar este nuevo array o contenedor o valor
+    // hago el string - que son el array de letra anteriores y lo
+    // lo convierto en una estring, con el join e entre comillas un espacio que hará
+    // que salga con espacios//
 
-//    Imprimir este valor, devolver este valor resultante
+    let SepPalabro = ArraypartirPal.join(" ")
+
+    let palabraMay = SepPalabro.toUpperCase()  // la convierto en mayusculas //
+
+    return palabraMay
+
+    // esto me sobra pero es lo que meto dentro del return//
+    //palabra.toUpperCase()
+
+   // return SepPalabro
+
+}
+
+
+
+console.log(Ejercicio1 ("oscar"));
+
+//    2- Que la devuelva en mayúsculas
+
+
+
+
+//    3- Separar las letras con espacios entre ellas, esa palabra
+
+
+
+//    4 imprimir en pantalla la palabra final
+
+
 
 //    FIN
 
 
-
-
-function pedirPalabra(n) [
-  
-      let (n) = oscar;
-  
-       for (palabra) {
-       
-
-           let n () = {
-           nombre: "oscar",
-           }
-        return: (n),
-        }
-       
-
-        }
-
-    ]
