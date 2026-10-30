@@ -1,3 +1,7 @@
+const ejercicio1 = document.querySelector('#id="ejercicio1')
+console.log('id="ejercicio1')
+
+
 // Ejercicio 1  //
 // Declara una función que acepte una palabra como parámetro
 //  y la devuelva con todos sus caracteres en mayúsculas y separados por espacios.
@@ -7,15 +11,16 @@
 
 // EMPIEZA
 
-//    Comprobar que sean "palabras"
-//       Si no son palabras comprobar hasta que lo sean
-//       si lo son aceptar parámetro "palabras"
-//       (Bucle) indefinido hasta que sean palabras
+//    Pedir palabra
+//    Comprobar que sea una "palabras"
+//       Si no es una "palabra" comprobar hasta que lo sea
+//       si lo es aceptar parámetro "palabra"
+//       (Bucle) indefinido hasta que sea una palabra
 
-//    Aceptado párametro "palabras"
-//    guardar valor "palabras"
+//    Aceptado párametro "palabra"
+//    guardar valor "palabra"
 
-//    Contar ese valor "palabras" = n "palabras" y llevarlo a un contedor (un array)
+//    Contar ese valor "palabra" = n "letras" y llevarlo a un contedor (un array)
 //    de n posiciones.
 
 //    Añadir desde la posición 0 (la primera letra) un espacio a cada posición original.
@@ -28,12 +33,22 @@
 //    FIN
 
 
-function pedirPalabra(n) {
-  
-      let palabra = oscar;
 
+
+function pedirPalabra(n) [
   
-     for (let i = 1; i <= n; i++) {
-     palabra *= i;
-     }
-}
+      let (n) = oscar;
+  
+       for (palabra) {
+       
+
+           let n () = {
+           nombre: "oscar",
+           }
+        return: (n),
+        }
+       
+
+        }
+
+    ]
