@@ -1,0 +1,89 @@
+/* ===================ARRANQUE=============== */
+
+/* ===================MOVIL (base, sin @media)=============== */
+
+
+/* Ajustes para pantallas más grandes */
+
+  body {
+
+    min-width: 80%; 
+    margin: 0;
+    padding: 20px;
+    font-family: "Inter", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #2d67dc;
+  
+  }
+
+  
+      header, footer {
+      background-color: #2f0202;
+      color: white;
+      text-align: center;
+      margin: auto;
+      padding: 2rem 0;
+      }
+
+     
+
+
+      .main-content {
+       margin: auto 0;
+       background-color: #13d523;
+      }
+
+      img {
+     width: 100%;
+      }
+
+      
+
+
+
+/* ===================768px=============== */
+
+
+ 
+
+  @media (min-width:768px) {
+   nav ul { flex-direction: row;
+   justify-content: center;
+   }
+   nav li { flex: 1 1 100px; }
+
+     main {
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+
+
+
+
+/* ===================992px=============== */
+
+@media (min-width: 992px) {
+  header, footer {
+    text-align: left;
+    padding: 1rem 2rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ===================1200px=============== */
+
+@media (min-width:1200px) {
+
+}
