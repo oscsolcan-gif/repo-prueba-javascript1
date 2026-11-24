@@ -2,88 +2,77 @@
 
 /* ===================MOVIL (base, sin @media)=============== */
 
+/* Cuerpo de la página: fuente Inter con Arial como plan B */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #2d67dc;
+}
 
-/* Ajustes para pantallas más grandes */
+/* Cabecera y pie (aquí no se usan en el HTML, se dejan por si crece la página) */
+header,
+footer {
+  background-color: #2f0202;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding: 2rem 0;
+}
 
-  body {
+/* Caja principal donde sale el resultado del ejercicio */
+main {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #13d523;
+}
 
-    min-width: 80%; 
-    margin: 0;
-    padding: 20px;
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: #2d67dc;
-  
-  }
+/* Título del ejercicio */
+h1 {
+  margin: 0 0 10px 0;
+}
 
-  
-      header, footer {
-      background-color: #2f0202;
-      color: white;
-      text-align: center;
-      margin: auto;
-      padding: 2rem 0;
-      }
+/* Párrafo del resultado: lo relleno desde JavaScript */
+#resultado {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
 
-     
-
-
-      .main-content {
-       margin: auto 0;
-       background-color: #13d523;
-      }
-
-      img {
-     width: 100%;
-      }
-
-      
-
+img {
+  width: 100%;
+}
 
 
 /* ===================768px=============== */
 
-
- 
-
-  @media (min-width:768px) {
-   nav ul { flex-direction: row;
-   justify-content: center;
-   }
-   nav li { flex: 1 1 100px; }
-
-     main {
+@media (min-width: 768px) {
+  /* En tablet el main pasa a Flexbox */
+  main {
     display: flex;
     flex-wrap: wrap;
-  
+  }
 }
-
-
-
 
 
 /* ===================992px=============== */
 
 @media (min-width: 992px) {
-  header, footer {
+  header,
+  footer {
     text-align: left;
     padding: 1rem 2rem;
   }
 }
 
 
-
-
-
-
-
-
-
-
-
 /* ===================1200px=============== */
 
-@media (min-width:1200px) {
-
+@media (min-width: 1200px) {
+  /* Centro el contenido con un ancho máximo */
+  body {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
